@@ -1,0 +1,42 @@
+<!-- views/partials/navbar.ejs -->
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="/">ZONA CERO</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/ubicacion">Ubicacion</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/extras">Podcast</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link">Suscripción</a>
+              <form action="checkout" method="POST">
+                  <script 
+                  src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                  data-key="pk_test_51HhtYfIoCf79dHKpC5WgrxisgCedBtJ724qUkI4Gnsg0yFG6gp6hgW29gwN5tCidk8x1ca7SQI5X10sLxM9bCEce00ogSIUUdI"
+                  data-amount="472"
+                  data-name="Zona Cero"
+                  data-description="Contenido especial para suscriptores"
+                  data-image="/images/logo.jpg"
+                  data-locale="auto">
+                </script>
+                </form>
+            </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/peliculas">Películas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/usuarios">Usuarios</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/comentarios">Comentarios</a>
+        </li>
+          </a>
+      </div>
+    </ul>
+    </div>
+  </nav>

@@ -1,0 +1,154 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: azure;
+}
+
+.bg-3 {     
+  background-color: #ffffff;     
+  color: #555555; } 
+ 
+.container-fluid {     
+  padding-top: 70px;     
+  padding-bottom: 70px; } 
+ 
+.navbar {     
+  padding-top: 15px;     
+  padding-bottom: 15px;    
+   border: 0;     
+   border-radius: 0;     
+   margin-bottom: 0;     
+   font-size: 12px;     
+   letter-spacing: 5px; } 
+ 
+.navbar-nav li a:hover {     
+  color: #1abc9c !important; } 
+ 
+.active>a {     
+  color: #1abc9c !important; ; } 
+
+  #map-template{
+    height: 60%;
+    width: 60%;
+    top: 20%;
+    position: absolute;
+    background: #333333;
+  } 
+  #datTienda{
+    width: 30%;
+    height: 15%;
+    float: right;
+    margin-right: 3%;
+    margin-left: 5%;
+    margin-top: 3%;
+    background-color: rgba(107, 221, 145, 0.678);
+    color: black;
+    font-size: 18px;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding: 10px 4px 5px 4px;
+  }
+
+.twitter-follow-button{
+    position: fixed;
+    bottom: 230px;
+    right: 26px;
+    width: 60px;
+    z-index: 1000;
+}
+
+.twitter-follow-button img{
+    width: 100%;
+    height: auto;
+}
+.appMessenger{
+    position: fixed;
+    bottom: 165px;
+    right: 26px;
+    width: 60px;
+    z-index: 1000;
+}
+.appMessenger img{
+    width: 100%;
+    height: auto;
+}
+.appWhatsapp{
+    position: fixed;
+    right: 26px;
+    bottom: 100px;
+    width: 60px;
+    z-index: 1000;
+}
+.appWhatsapp img{
+    width: 100%;
+    height: auto;
+}
+footer #derec{
+   font-style: italic;
+   font-size: medium;
+   color: rgb(4, 57, 66);
+   width: 25%;
+   float: left;
+}
+footer #izq{ 
+    float: right;
+    font-style: italic;
+    
+    font-size: medium;
+    color: rgb(4, 57, 66);
+    width: 20%;
+}
+.StripeElement {
+  box-sizing: border-box;
+
+  height: 40px;
+
+  padding: 10px 12px;
+
+  border: 1px solid transparent;
+  border-radius: 4px;
+  background-color: white;
+
+  box-shadow: 0 1px 3px 0 #ffffff;
+  -webkit-transition: box-shadow 150ms ease;
+  transition: box-shadow 150ms ease;
+}
+
+.StripeElement--focus {
+  box-shadow: 0 1px 3px 0 #ffffff;
+}
+
+.StripeElement--invalid {
+  border-color: #fa755a;
+}
+
+.StripeElement--webkit-autofill {
+  background-color: #fefde5 !important;
+}
+
+
+.btn.dropdown-toggle  {
+  width:150px;
+  text-align:left;
+}
+
+span.caret {
+  position: absolute;
+  left: 90%;
+  top: 45%;
+}
+
+label {
+  padding-top:5px;
+}
+
+.form-label {
+  padding-left:0px !important;
+}
+
+img {
+  width:260px;
+  height:260px;
+}
+
